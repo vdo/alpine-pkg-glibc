@@ -42,7 +42,7 @@ i18n() {
   depends="$pkgname-bin"
   arch="noarch"
   mkdir -p "$subpkgdir"/usr/glibc-compat
-  cp -a "$srcdir"/usr/glibc-compat/share "$subpkgdir"/usr/glibc-compa
+  cp -a "$srcdir"/usr/glibc-compat/share "$subpkgdir"/usr/glibc-compat
 }
 
 #https://www.archlinux.org/packages/community/any/aarch64-linux-gnu-glibc/download/
